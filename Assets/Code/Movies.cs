@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Code : MonoBehaviour
+public class Movies : MonoBehaviour
 {
-    class movies
+    class Movie
     {
-        string title;
-        int year;
-        string director;
+        protected string title;
+        protected int year;
+        protected string director;
 
-        public movies(string_title, int_year, string_director)
+        public Movie(string _title, int _year, string _director)
         {
             title = _title;
             year = _year;
@@ -22,5 +22,11 @@ public class Code : MonoBehaviour
             return $"{title} by {director} - {year}";
         }
     }
+
+    void Start()
+    {
+        Movie movie1 = new Movie("Killerbean", 2025, "Gud");
+
+        Debug.Log(movie1.GetInfo());
+    }
 }
-//Code by Johan
