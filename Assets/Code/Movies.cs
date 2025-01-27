@@ -30,3 +30,5 @@ public class Movies : MonoBehaviour
         Debug.Log(movie1.GetInfo());
     }
 }
+
+//Kod av Johan
