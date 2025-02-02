@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/idahoez.unity
+    guid: 2e21673e047b3e44ebb43ac49b905284
   m_configObjects: {}
