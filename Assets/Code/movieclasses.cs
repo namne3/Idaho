@@ -66,3 +66,5 @@ public class AnimatedMovie : Movie
         return base.GetInfo() + $"\nAnimerad av: {animationStudio}"; //Returnerar information om filmen och dess animationsstudio
     }
 }
+
+//Kod av Felix
