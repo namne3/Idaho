@@ -11,7 +11,7 @@ public class moviemanager : MonoBehaviour
     {
         //Skapar objekt för regissörer, produktionerna och filmerna
         Director nkansah = new Director("Samuel K. Jackson", 80, 50);
-        Director jeffLew = new Director("Johan Kallert", 12, 10);
+        Director jeffLew = new Director("Johan Gallert", 30, 10);
         Director ivarSkånberg = new Director("Globby", 20, 4);
 
         Production africanKungFuProduction = new HollywoodProduction("African Productions", "Ghana", 150);
@@ -36,3 +36,4 @@ public class moviemanager : MonoBehaviour
         }
     }
 }
+//Kod av Johan
