@@ -39,3 +39,5 @@ public class buttonmanager : MonoBehaviour
         movieInfoPanel.SetActive(false);
     }
 }
+
+//Kod av Felix
