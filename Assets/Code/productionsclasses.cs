@@ -60,3 +60,5 @@ public class IndieProduction : Production
         return base.GetInfo() + $", Visad på {festivalName}"; //Returnerar information om produktionen av filmen samt festivalen
     }
 }
+
+//Kod av Felix
