@@ -56,3 +56,5 @@ public class Actor : Person //Subklass till Person som representerar skådespela
         return base.GetInfo() + $", Medverkat i {moviesActedIn} filmer"; //Returnerar information om skådespelaren och antalet filmer den medverkat i
     }
 }
+
+// Pontus Ebeling
